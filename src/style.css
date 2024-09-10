@@ -38,11 +38,11 @@ form {
 }
 .recipe-placeholder {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
   background-color: #bbe4e9;
   opacity: 0.3;
   font-size: 14px;
-  line-height: 1.5px;
+  line-height: 1.5;
   border-left: 2px solid #53a8b6;
 }
 footer {
