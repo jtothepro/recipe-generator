@@ -23,6 +23,10 @@ function generateRecipe(event) {
 
   console.log("Generating recipe");
 
+  let recipeElelment = document.querySelector("#recipe-placeholder");
+  recipeElelment.classList.remove("hide");
+  recipeElelment.innerHTML = `<div class="generating">🤩 Your recipe with ${ingredient.value} is generated 🤩</div>`;
+
   axios.get(apiUrl).then(displayRecipe);
 }
 let recipeFormElement = document.querySelector("#form");

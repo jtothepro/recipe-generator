@@ -55,6 +55,26 @@ small {
   line-height: 1.5;
   border-left: 2px solid #53a8b6;
 }
+
+.hide {
+  display: none;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
 footer {
   color: #e3f6f5;
   text-align: center;
