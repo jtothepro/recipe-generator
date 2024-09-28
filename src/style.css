@@ -16,10 +16,6 @@ h1 {
   color: #53a8b6;
   text-align: center;
 }
-form {
-  margin: 30px 0;
-  display: flex;
-}
 .ingredient {
   padding: 10px;
   border-radius: 5px;
@@ -36,8 +32,22 @@ form {
   color: white;
   font-size: 14px;
 }
+.form-container {
+  margin-bottom: 30px;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: white;
+}
+form {
+  margin: 0;
+  display: flex;
+}
+small {
+  font-size: 10px;
+}
 .recipe-placeholder {
   padding-top: 30px;
+  padding-left: 30px;
   padding-bottom: 100px;
   background-color: #bbe4e9;
   opacity: 0.3;
